@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      backgroundImage: {
+        hero: "url('/src/assets/images/bg-1.svg')",
+      },
+      colors: {
+        primary: "#07112D",
+        secondary: "#032282",
+      },
+      fontFamily: {},
+      screens: {
+        xs: "480px",
+        mds: "600px",
+        md: "768px",
+        lgss: "976px",
+        lg: "1200px",
+        xxl: "1440px",
+      },
+    },
+  },
+  variants: {},
+  plugins: [],
+};
