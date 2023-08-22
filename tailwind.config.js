@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/src/assets/images/bg-1.svg')",
+        wallet: "url('/src/assets/images/walletBackground.svg')",
       },
       colors: {
         primary: "#07112D",

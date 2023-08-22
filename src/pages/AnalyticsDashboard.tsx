@@ -16,12 +16,12 @@ const AnalyticsDashboard = () => {
       <div className="w-1/5 hidden lgss:flex">
         <Sidebar />
       </div>
-      <div className="w-full lgss:w-4/5 lgss:pl-2 lgss:pr-6  lgss:pt-4  lgss:pb-20">
+      <div className="w-full lgss:w-4/5 lgss:pl-2 lgss:pr-6  lgss:pt-4  lgss:pb-4">
         <div className="lgss:rounded-[30px] bg-white w-full  h-full">
           <Navbar />
           <div className="w-full px-4 pt-8 pb-8 bg-[#F8F9FB] h-full lgss:rounded-b-[30px]">
             <div className="w-full grid grid-cols-1 gap-4 lgss:grid-cols-4 ">
-              <div className="h-[190px] lgss:h-[160px] p-6 lgss:p-4 rounded-xl bg-secondary">
+              <div className="h-[190px] bg-wallet bg-cover lgss:h-[160px] p-6 lgss:p-4 rounded-xl bg-secondary">
                 <h4 className="text-[#CDCDCD] font-medium text-[16px] tracking-wider ">
                   Wallet Balance
                 </h4>
