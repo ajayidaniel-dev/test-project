@@ -10,7 +10,10 @@ module.exports = {
         primary: "#07112D",
         secondary: "#032282",
       },
-      fontFamily: {},
+      fontFamily: {
+        nunito: ["Nunito, sans-serif"],
+        sora: ["Sora, sans-serif"],
+      },
       screens: {
         xs: "480px",
         mds: "600px",
